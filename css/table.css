@@ -1,14 +1,15 @@
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
 table caption {
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1.0rem;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 th, td {
+  border: 1px solid black;
   text-align: left;
-  padding: 8px;
+  padding: .2em .7em;
 }
