@@ -1,3 +1,8 @@
+
+.div {
+  background-color: black;
+}
+
 .header {
     background-color: dodgerblue;
     text-align: center;
@@ -8,13 +13,17 @@
     color: orange;
 }
 
+.ul {
+    background-color: black;
+}
+
 .main {
     background-color: black;
     color: orange;
 }/*Main is parent. Section is child of main. P is child of section. So section and p elements should inherit properties of main.*/
 
 .footer {
-    background-color: seagreen;
+    background-color: teal;
     text-align: center;
     font-family: Aptos, Verdana, sans-serif;
     color: orange;
@@ -35,15 +44,15 @@ p {
 
 /*unvisited link*/
 a:link {
-  color: cyan;
+  color: violet;
 }
 
 /*visited link*/
 a:visited {
-  color: cyan;
+  color: violet;
 }
 
 /*mouse over link*/
 a:hover {
-  color: violet;
+  color: white;
 }
