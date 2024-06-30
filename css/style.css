@@ -1,20 +1,24 @@
 
-.div {
+.body {
   background-color: black;
 }
 
 .header {
-    background-color: dodgerblue;
+    background-color: blue;
     text-align: center;
 }
 
 .nav {
     background-color: black;
     color: orange;
+    font-family: Aptos, Verdana, sans-serif;
+    font-size: normal;
 }
 
 .ul {
     background-color: black;
+    font-family: Aptos, Verdana, sans-serif;
+    font-size: normal;
 }
 
 .main {
@@ -23,11 +27,16 @@
 }/*Main is parent. Section is child of main. P is child of section. So section and p elements should inherit properties of main.*/
 
 .footer {
-    background-color: teal;
+    background-color: blue;
     text-align: center;
     font-family: Aptos, Verdana, sans-serif;
     color: orange;
     font-weight: normal;
+    font-size: normal;
+}
+
+.pre {
+    font-family: Aptos, Verdana, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,12 +53,12 @@ p {
 
 /*unvisited link*/
 a:link {
-  color: violet;
+  color: #ffff00;
 }
 
 /*visited link*/
 a:visited {
-  color: violet;
+  color: #ffff00;
 }
 
 /*mouse over link*/
