@@ -10,8 +10,8 @@
 
 .nav {
     background-color: black;
-    color: orange;
     font-family: Aptos, Verdana, sans-serif;
+    color: #ffaa87;
     font-size: 1em;
 }
 
@@ -23,14 +23,14 @@
 
 .main {
     background-color: black;
-    color: orange;
+    color: #ffaa87;
 }/*Main is parent. Section is child of main. P is child of section. So section and p elements should inherit properties of main.*/
 
 .footer {
     background-color: blue;
     text-align: center;
     font-family: Aptos, Verdana, sans-serif;
-    color: orange;
+    color: #ffaa87;
     font-weight: normal;
     font-size: 1em;
 }
@@ -42,13 +42,13 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: Aptos, Verdana, sans-serif;
     font-weight: bold;
-    color: orange;
+    color: #ffaa87;
 }
 
 p {
   font-family: Aptos, Verdana, sans-serif;
   font-weight: normal;
-  color: orange;
+  color: #ffaa87;
 }
 
 /*unvisited link*/
