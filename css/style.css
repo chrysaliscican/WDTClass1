@@ -1,11 +1,11 @@
-
 .body {
-  background-color: black;
+    background-color: black;
 }
 
 .header {
     background-color: blue;
     text-align: center;
+    padding: 5px;
 }
 
 .nav {
@@ -13,6 +13,7 @@
     font-family: Aptos, Verdana, sans-serif;
     color: #ffaa87;
     font-size: 1em;
+    padding: 10px;
 }
 
 .ul {
@@ -46,22 +47,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-family: Aptos, Verdana, sans-serif;
-  font-weight: normal;
-  color: #ffaa87;
+    font-family: Aptos, Verdana, sans-serif;
+    font-weight: normal;
+    color: #ffaa87;
 }
 
 /*unvisited link*/
 a:link {
-  color: #ffff00;
+    color: #ffff00;
 }
 
 /*visited link*/
 a:visited {
-  color: #ffff00;
+    color: #ffff00;
 }
 
 /*mouse over link*/
 a:hover {
-  color: white;
+    color: white;
 }
