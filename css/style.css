@@ -32,7 +32,11 @@
    margin: auto; /*This automatically centers the form*/
 }
 
-.submit{
+legend {
+    font-family: Aptos, Verdana, sans-serif;
+}
+
+.submit {
     background-color:#ffff00;
     border-radius: 12px;
     padding: 10px 50px;/*first parameter is top/bottom, second is left/right*/
@@ -46,6 +50,10 @@
     border-radius: 6px;
     font-family: Aptos, Verdana, sans-serif;
     font-size: 0.75em;
+}
+
+.success {
+    text-align: center;
 }
 
 .footer {
