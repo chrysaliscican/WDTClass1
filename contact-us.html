@@ -23,8 +23,11 @@
         <h2>Contact Us</h2>
         <p>If you would like more information about this site, feel free to contact us by filling out and submitting the form below.
         </p>
+    </section>
 
-        <form name="myMailerForm" id="myMailerForm" action="mailto:cican42814@gmail.com" method="post">
+    <form name="myMailerForm" id="myMailerForm" action="mailto:cican42814@gmail.com" method="post" class="form">
+      <fieldset>
+        <legend> Contact Us By Submitting This Form</legend>
           <p><label for="firstname"> First Name </label> 
           <p><input type="text" name="firstname" id="firstname"></p>
           <p><label for="lastname"> Last Name </label></p>
@@ -301,12 +304,13 @@
           <p><textarea name="inquiry" id="inquiry" rows="4" cols="50">  
           </textarea></p>
 
-          <p><input type="submit" id="submit" value="Submit"></p>
-          <p><input type="reset" id="reset" value="Clear Form"></p>
+          <p><form action="success.html"><input type="submit" id="submit"value="Submit" class="submit"></form></p>
+          <p><input type="reset" id="reset" value="Clear Form" class="reset"></p>
+      
+    </fieldset>
+  </form>
 
-        </form>
-
-        <p>Note: Please allow at least 3 business days for a response form us.</p>
+    <p>Note: Please allow at least 3 business days for a response form us.</p>
     </section>
 
 </main>

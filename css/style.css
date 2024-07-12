@@ -27,6 +27,27 @@
     color: #ffaa87;
 }/*Main is parent. Section is child of main. P is child of section. So section and p elements should inherit properties of main.*/
 
+.form {
+   width: 65%;
+   margin: auto; /*This automatically centers the form*/
+}
+
+.submit{
+    background-color:#ffff00;
+    border-radius: 12px;
+    padding: 10px 50px;/*first parameter is top/bottom, second is left/right*/
+    font-family: Aptos, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.reset{
+    background-color: #ffff00;
+    border-radius: 6px;
+    font-family: Aptos, Verdana, sans-serif;
+    font-size: 0.75em;
+}
+
 .footer {
     background-color: blue;
     text-align: center;
