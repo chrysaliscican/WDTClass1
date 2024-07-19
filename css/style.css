@@ -5,7 +5,6 @@
 .header {
     background-color: blue;
     text-align: center;
-    padding: 5px;
 }
 
 .nav {
@@ -13,7 +12,6 @@
     font-family: Aptos, Verdana, sans-serif;
     color: #ffaa87;
     font-size: 1em;
-    padding: 10px;
 }
 
 .ul {
@@ -65,9 +63,18 @@ legend {
     font-size: 1em;
 }
 
-.pre {
+.pre1 {
     font-family: Aptos, Verdana, sans-serif;
 }
+
+.pre2 {
+    font-family: Aptos, Verdana, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+    margin: 0;
+
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Aptos, Verdana, sans-serif;
