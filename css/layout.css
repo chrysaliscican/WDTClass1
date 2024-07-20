@@ -55,7 +55,7 @@
     max-width: 275px;
 }/*this layout attribute is working well for index.html - they are only needed on this one site page*/
 
-.span {
+.section {
     display: table;
 }/*this layout attribute is working well for index.html - they are only needed on this one site page*/
 
