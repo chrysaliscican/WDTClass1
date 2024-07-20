@@ -2,10 +2,16 @@
     background-color: black;
 }
 
-.header {
+.header2 {
     background-color: blue;
     text-align: center;
 }
+
+.header-faq {
+    background-color: blue;
+    text-align: center;
+}
+
 
 .nav {
     background-color: black;
