@@ -65,12 +65,6 @@
     /*This automatically centers the form*/
 }/*width and margin are working well for contact-us.html - they are only needed on this one site page*/
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .daniels-fig {
     float: left;
 }
@@ -101,6 +95,10 @@
 
 .me-fig {
     float: right;
+}
+
+.pre2 {
+    margin: 0;
 }
 
 .form {
