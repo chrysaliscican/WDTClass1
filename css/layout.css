@@ -1,60 +1,23 @@
 .header {
-    padding: 5px;
-    position: sticky;
-    position: -webkit-sticky;
-    position: -moz-sticky;
-    top: 0;
-}
-
-.header2 {
     position: fixed;
+    padding: 5px;
     top: 0;
     left: 0;
     width: 100%;
     height: auto;
-}
-
-
-
-.header-faq {
-    padding: 50px;
-    position: sticky;
-
-}
-
-.header-contact-us {
-    padding: 5px;
-    position: sticky;
-    position: -webkit-sticky;
-    position: -moz-sticky;
-    top: 0;
-}
-
-.header-success {
-    padding: 5px;
-    position: sticky;
-    position: -webkit-sticky;
-    position: -moz-sticky;
-    top: 0;
-}
+    clear: both;
+}/*fixed working well for index.html*/
 
 .logo {
     position: absolute;
-    left: 10px;
-    top: 9px;
-    max-width: 75px;
-    max-height: 75px;
-}
-
-.logo2 {
-    position: absolute;
     top: 0;
     left: 10px;        
-    z-index: 5;
+    z-index: 2;
     width: auto;
     max-width: 10vw;
     height: 80px;
-}
+    clear: both;
+}/*absolute working well for index.html*/
 
 .nav {
     padding: 10px;
@@ -62,7 +25,8 @@
     position: -webkit-sticky;
     position: -moz-sticky;
     top: 90px;
-}
+    clear: both;
+}/*sticky is working for index.html ONLY - it is not working on all subsequent site pages*/
 
 .aside {
     float: right;
@@ -70,11 +34,13 @@
     position: -webkit-sticky;
     position: -moz-sticky;
     top: 90px;
-}
+    clear: both;
+}/*float right and sticky are working for index.html ONLY - it is not working on all subsequent site pages*/
 
 .main {
     width: 80vw;
-}
+    margin-top: 12%;
+}/*this attribute is working for all site pages*/
 
 .article {
     width: 800px;
@@ -83,22 +49,21 @@
     margin: 40px 40px;
     box-sizing: border-box;
     clear: both;
-
-}
+}/*all of these layout attributes are working well for index.html - they are only needed on this one site page*/
 
 .figcaption {
     max-width: 275px;
-}
+}/*this layout attribute is working well for index.html - they are only needed on this one site page*/
 
 .span {
     display: table;
-}
+}/*this layout attribute is working well for index.html - they are only needed on this one site page*/
 
-.span2 {
-    display: table;
-    clear: both;
-}
-
+.form {
+    width: 65%;
+    margin: auto;
+    /*This automatically centers the form*/
+}/*width and margin are working well for contact-us.html - they are only needed on this one site page*/
 
 .clearfix::after {
     content: "";
@@ -141,8 +106,8 @@
 .form {
     width: 65%;
     margin: auto;
-}
-/*This automatically centers the form*/
+}/*This automatically centers the form*/
+/*width and margin attributes are working for contact-us.html - it is only needed on this one site page*/
 
 .submit {
     border-radius: 12px;
