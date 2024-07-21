@@ -22,8 +22,8 @@
 .nav {
     padding: 10px;
     position: sticky;
-    position: -webkit-sticky;
-    position: -moz-sticky;
+    -webkit-position: sticky;
+    -moz-position: sticky;
     top: 90px;
     clear: both;
 }/*sticky is working for index.html ONLY - it is not working on all subsequent site pages*/
@@ -31,8 +31,8 @@
 .aside {
     float: right;
     position: sticky;
-    position: -webkit-sticky;
-    position: -moz-sticky;
+    -webkit-position: sticky;
+    -moz-position: sticky;
     top: 90px;
     clear: both;
 }/*float right and sticky are working for index.html ONLY - it is not working on all subsequent site pages*/
