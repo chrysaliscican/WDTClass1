@@ -6,7 +6,7 @@
     width: 100%;
     height: auto;
     clear: both;
-}/*fixed working well for index.html*/
+}/*fixed working well on all site pages*/
 
 .logo {
     position: absolute;
@@ -21,11 +21,9 @@
 
 .nav {
     position: sticky;
-    -webkit-position: sticky;
-    -moz-position: sticky;
     top: 90px;
 
-}/*sticky is working for index.html ONLY - it is not working on all subsequent site pages*/
+}/*sticky is working on all subsequent site pages*/
 
 .nav a {
     float: left;
@@ -35,11 +33,9 @@
 .aside {
     float: right;
     position: sticky;
-    -webkit-position: sticky;
-    -moz-position: sticky;
     top: 90px;
     clear: both;
-}/*float right and sticky are working for index.html ONLY - it is not working on all subsequent site pages*/
+}/*float right and sticky are working on all site pages*/
 
 .main {
     width: 80vw;
