@@ -7,6 +7,10 @@
     text-align: center;
 }/*backgorund and color and text align working on all site pages*/
 
+.header-team {
+    text-align: center;
+}
+
 .nav {
     background-color: #333;
     font-family: Aptos, Verdana, sans-serif;
@@ -15,21 +19,35 @@
 
 
 .nav a {
-    color: #f2f2f2;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
 }/*Instructor's code styles the links inside the navigation bar */
 
 .nav a:hover {
-    background-color: #ddd;
+    background-color: white;
     color: black;
 }/* Instructor's code changes the color of links on hover */
 
-.nav a.active {
-    background-color: darkgreen;
+.nav a:active {
+    background-color: blue;
     color: white;
 }/* Instructor's code adds a color to the active/current link */
+
+.flex-p-nav {
+   
+    font-size: 17px;
+}
+
+.flex-p-nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.flex-p-nav a:active {
+    background-color: blue;
+    color: white;
+}
 
 .ul {
     background-color: black;
@@ -59,6 +77,12 @@ legend {
     border-radius: 6px;
     font-family: Aptos, Verdana, sans-serif;
     font-size: 0.75em;
+}
+
+.sign-in-team {
+    background-color:#ffff00;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 .success {
@@ -113,22 +137,27 @@ figcaption {
 
 /*unvisited link*/
 a:link {
+    font-family: Aptos, Verdana, sans-serif;
     color: #ffff00; 
 }
 
 /*visited link*/
 a:visited {
+    font-family: Aptos, Verdana, sans-serif;
     color: #ffff00;
 }
 
 /*mouse over link*/
 a:hover {
+    font-family: Aptos, Verdana, sans-serif;
     background-color: #ddd;
     color: black;
 }
 
 /* Add a color to the active/current link */
 a:active {
-    background-color: #04aa6d;
+    font-family: Aptos, Verdana, sans-serif;
+    background-color: blue;
     color: white;
+    padding: 14px 16px;
 }
