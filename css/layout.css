@@ -14,6 +14,16 @@
     clear: both;
 }/*fixed working well on all site pages*/
 
+.header-team {
+  position: relative;
+  padding: 5px 15px;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+/*fixed working well on all site pages*/
+
 .logo {
     position: absolute;
     top: 5px;
@@ -26,9 +36,11 @@
 }/*absolute working well for index.html*/
 
 .logo-team {
-    top: 0;
+    
+    position: absolute;
+    top: 5px;
     left: 5px;
-    z-index: 2;
+    /* z-index: 2; */
     width: auto;
     max-width: 10vw;
     height: 80px;
@@ -51,13 +63,13 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: flex-start;
-    padding: 14px 16px;
+    padding: 10px;
     margin-top: 0px;
     max-width: 17vw;
 }
 
 .flex-c-nav {
-    padding: 14px 16px;
+    padding-bottom: 5px;
 }
 
 .flex-p-footer-nav {
@@ -65,7 +77,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: flex-start;
-    margin-top: 0px;
+    margin-top: 25px;
     max-width: 17vw;
 }
 
@@ -92,9 +104,10 @@
 
 .flex-p-article {
     display: flex;
-    flex-flow: row wrap;
-    /* justify-content: flex-start; */
-    /* align-content: flex-start; */ /* aligns all items as a group at desired location */
+    flex-flow: row nowrap;
+    height: 75vh;
+    align-items: flex-start;
+    gap: 0.75em;
 }
 
 .figcaption {
@@ -106,43 +119,53 @@
 }/*this layout attribute is working well for index.html - they are only needed on this one site page*/
 
 .flex-section1 {
-        border: 5px dotted #0000ff;
-        padding: 15px;
-        text-align: center;
-        max-width: 200px;
-        max-height: 600px;
-}
+    display: flex;
+    flex-flow: column nowrap;
+    border: 5px dotted #0000ff;
+    padding: 10px;
+    text-align: center;
+    max-height: auto;/*if there is less content in child container than others, container will not be as tall as others*/
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;/* sets minimum width of each of these child containers. */
+}/*max-width: will cause contents in item to fly out of child container*/
 
 .flex-section2 {
-        border: 5px dotted #0000ff;
-        padding: 15px;
-        text-align: center;
-        max-width: 200px;
-        max-height: 600px;
-
+    display: flex;
+    flex-flow: column nowrap;
+    border: 5px dotted #0000ff;
+    padding: 10px;
+    text-align: center;
+    max-height: auto;
+    flex: 0.5 1 200px;
+    align-self: center;
 }
 
 .flex-section3 {
-        border: 5px dotted #0000ff;
-        padding: 15px;
-        text-align: center;
-        max-width: 200px;
-        max-height: 600px;
+    display: flex;
+    flex-flow: column nowrap;
+    border: 5px dotted #0000ff;
+    padding: 10px;
+    text-align: center;
+    max-height: auto;
+    margin-bottom: 10px;
+    flex: 0 1 200px;
+    align-self: flex-end;
 }
 
 .flex-img1 {
-    max-width: 150px;
-    max-height: 169px;
-}
+    max-width: 100%;
+    height: auto;
+}/*must put constraints on images or they stretch to fit flex containers*/
 
 .flex-img2 {
-    max-width: 147px;
-    max-height: 172px;
+    max-width: 100%;
+    height: auto;
 }
 
 .flex-img3 {
-    max-width: 135px;
-    max-height: 172px;
+    max-width: 100%;
+    height: auto;
 }
 
 .form {
@@ -208,20 +231,17 @@
     padding: 25px 50px;
     max-height: 70px;
     margin: 20px 15px;
-
 }
 
 .flex-p-footer {
     background-color: blue;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
-    max-width: 100vh;
+    width: 100%;
 }
-
-
 
 .flex-footer2 {
     order: -1;
