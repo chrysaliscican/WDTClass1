@@ -238,14 +238,6 @@
     border-radius: 6px;
 }
 
-.sign-in-team {
-    display: flex;
-    border-radius: 12px;
-    padding: 25px 50px;
-    max-height: 70px;
-    margin: 20px 15px;
-}
-
 .flex-p-footer {
     background-color: blue;
     display: flex;
