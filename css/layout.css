@@ -104,8 +104,8 @@
 
 .flex-p-article {
     display: flex;
-    flex-flow: row nowrap;
-    height: 75vh;
+    flex-flow: row wrap;
+    height: auto;/* setting to 75vh caused text from bios to overlap footer*/
     align-items: flex-start;
     gap: 0.75em;
 }
@@ -137,8 +137,10 @@
     padding: 10px;
     text-align: center;
     max-height: auto;
+    margin-bottom: 10px;
     flex: 0.5 1 200px;
     align-self: center;
+
 }
 
 .flex-section3 {
