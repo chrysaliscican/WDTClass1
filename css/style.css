@@ -11,6 +11,10 @@
     text-align: center;
 }
 
+.meet-team {
+    text-align: center;
+}
+
 .nav {
     background-color: #333;
     font-family: Aptos, Verdana, sans-serif;
@@ -98,6 +102,12 @@ legend {
     color: #ffaa87;
     font-weight: normal;
     font-size: 1em;
+}
+
+.flex-p-footer {
+    font-family: Aptos, Verdana, sans-serif;
+    color: #ffaa87;
+    font-size: 17px;
 }
 
 .pre1 {
