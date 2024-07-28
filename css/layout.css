@@ -136,6 +136,8 @@
     border: 5px dotted #0000ff;
     padding: 10px;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
     max-height: auto;/*if there is less content in child container than others, container will not be as tall as others*/
     flex-grow: 1;
     flex-shrink: 1;
@@ -149,6 +151,7 @@
     padding: 10px;
     text-align: center;
     max-height: auto;
+    margin-top: 10px;
     margin-bottom: 10px;
     flex: 0.5 1 200px;
     align-self: center;
@@ -161,6 +164,7 @@
     padding: 10px;
     text-align: center;
     max-height: auto;
+    margin-top: 10px;
     margin-bottom: 10px;
     flex: 0 1 200px;
     align-self: flex-end;
