@@ -110,6 +110,18 @@
     gap: 0.75em;
 }
 
+.h2-team {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 5px dotted #0000ff;
+    padding: 10px;
+    text-align: center;
+    max-height: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    flex: 0 2 50px;    
+}
+
 .figcaption {
     max-width: 275px;
 }/*this layout attribute is working well for index.html - they are only needed on this one site page*/
@@ -245,7 +257,18 @@
     width: 100%;
 }
 
+.flex-footer1 {
+    flex-flow: column wrap;
+    padding: 5px;
+}
+
 .flex-footer2 {
     order: -1;
+    flex-flow: column wrap;
+    padding: 5px;
+}
+
+.flex-footer3 {
+    flex-flow: column wrap;
 }
 

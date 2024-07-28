@@ -112,6 +112,7 @@ legend {
     font-family: Aptos, Verdana, sans-serif;
     font-weight: bold;
     font-size: 1em;
+    text-wrap: wrap;
 }
 
 .ul-flex-footer3 {
