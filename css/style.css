@@ -39,7 +39,6 @@
 }/* Instructor's code adds a color to the active/current link */
 
 .flex-p-nav {
-   
     font-size: 17px;
 }
 
@@ -105,9 +104,19 @@ legend {
 }
 
 .flex-p-footer {
-    font-family: Aptos, Verdana, sans-serif;
     color: #ffaa87;
-    font-size: 17px;
+}
+
+.footer-strong {
+    font-family: Aptos, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.ul-flex-footer3 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .pre1 {
